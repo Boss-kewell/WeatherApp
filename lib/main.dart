@@ -3,7 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:weather_app/home.dart';
 
 void main() {
-  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(statusBarColor: Colors.transparent));
+  SystemChrome.setSystemUIOverlayStyle(
+      SystemUiOverlayStyle(statusBarColor: Colors.transparent));
   runApp(const MyApp());
 }
 
@@ -16,10 +17,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Weather App',
       theme: ThemeData(
-        scaffoldBackgroundColor: Color(4283131808),
+        scaffoldBackgroundColor: const Color(4283131808),
       ),
       home: HomePage(),
     );
   }
 }
-
