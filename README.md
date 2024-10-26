@@ -1,6 +1,6 @@
 # weather_app
 
-A new Flutter project.
+it is a new flutter project but a demo .
 
 ## Getting Started
 
